@@ -68,7 +68,7 @@ As a final note, the primary research question for this study is to consider wha
 
 ## Setup
 
-The model used for this study was built from scratch, using Python. However, agent-based modeling packages do exist, and the curious reader may consider, for example, [NetLogo](https://ccl.northwestern.edu/netlogo/), and the [Construct API](https://github.com/CASOS-IDeaS-CMU/Construct-API).
+The model used for this study was built from scratch, using Python. Code for the project is available [here](https://github.com/tmwine/reddit_simulation). However, agent-based modeling packages do exist, and the curious reader may consider, for example, [NetLogo](https://ccl.northwestern.edu/netlogo/), and the [Construct API](https://github.com/CASOS-IDeaS-CMU/Construct-API).
 
 **Major modeling assumptions:**
 - the primary element in the model is a Reddit-like tree, composed of a single, model-generated lead post (the "OP"), with zero or more recursive dependent posts in reply; as the simulation runs, agents vote on and add posts to the various trees; see Figure 1.
@@ -744,7 +744,6 @@ Eliminating downvoting at a system level presents a related tradeoff: while this
 Finally, to mitigate the majority-polar dominance threat of churn, churn itself could be reduced. This could be a definitive solution to minority-polar attrition, but it might be the hardest to implement. For one possibility, a platform might monitor for agent churn, especially when runaway majority-dominance effects start to arise, and provide extra incentives for minority-polar and/or neutral users to remain with the platform.
 
 When consiering total system reward, or overall "happiness" as measured by total upvotes minus total downvotes over all trees, more tradeoffs arise. Generally, whatever makes the system happier, tends to make it more homophilic. This was certainly true for post curation, and for agent altruism, but also for policing, and the strictness of polarity matching when agents considered commenting or voting for reward intent purposes. This reflects a quote cited in the introduction that bears repeating: exposure to contrary opinions is "not necessarily the environment that produces enthusiastically participatory individuals."
-
 
 
 
