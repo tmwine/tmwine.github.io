@@ -279,9 +279,7 @@ In addition to improving the algorithms, the exposition above raised the followi
 
 AI usage disclosure: An LLM (ChatGPT) was used for preliminary research, to check if an idea of this type already existed in the literature, as well as for help with the C++ Boost.Geometry library.
 
-If you found this post interesting, the source code is available [here](https://tmwine.github.io/2026/05/20/lazy-eaters-problem.html).
-
-
+If you found this post interesting, the source code is available [here](https://github.com/tmwine/lazy_eaters_problem).
 
 ## References
 
