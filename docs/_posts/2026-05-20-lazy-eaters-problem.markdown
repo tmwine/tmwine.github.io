@@ -277,9 +277,9 @@ In addition to improving the algorithms, the exposition above raised the followi
 - what are some example of non-convex shapes that produce even greater underperformance by the greedy algorithm than for the two squares on stilts?
 - under the restriction of convex shapes only, what are some of the absolute best convex shapes for foiling the greedy algorithm? can the underperformance demonstrated for the rectangle of aspect ratio 1.4, and the house with the skewed roof, be made worse?
 
-**AI usage disclosure**: An LLM (ChatGPT) was used for preliminary research, to check if an idea of this type already existed in the literature, as well as for help with the C++ Boost.Geometry library.
+AI usage disclosure: An LLM (ChatGPT) was used for preliminary research, to check if an idea of this type already existed in the literature, as well as for help with the C++ Boost.Geometry library.
 
-If you found this interesting, the source code is available at ... (TODO: repo link)
+If you found this post interesting, the source code is available [here](https://tmwine.github.io/2026/05/20/lazy-eaters-problem.html).
 
 
 
